@@ -8,7 +8,7 @@ Whenever you just want to push all your recent changes with a message, just
 
 ### Installation 
 Use your favorite plugin manager
-> Eg. For vim-plug user
+> eg. For vim-plug user
 ```
 Plug 'wangsongiam/vim-git-it'
 ```
@@ -17,7 +17,7 @@ Plug 'wangsongiam/vim-git-it'
 ```vim
 nnoremap {shortcut} :Gitit 
 ```
->### Example
+>### eg.
 ```vim
 nnoremap <leader>p :Gitit
 ```
