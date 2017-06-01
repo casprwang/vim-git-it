@@ -17,7 +17,7 @@ Plug 'wangsongiam/vim-git-it'
 ```vim
 nnoremap {shortcut} :Gitit 
 ```
->### eg.
+> eg.
 ```vim
 nnoremap <leader>p :Gitit
 ```
