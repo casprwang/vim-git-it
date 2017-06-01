@@ -17,7 +17,7 @@ Plug 'wangsongiam/vim-git-it'
 ```vim
 nnoremap {shortcut} :Gitit 
 ```
-> eg.
+> eg. if you want to trigger it with leaderkey and p
 ```vim
 nnoremap <leader>p :Gitit
 ```
