@@ -3,6 +3,8 @@
 
 Whenever you just want to push all your recent changes with a message, just
 `:Gitit {Your message}` and it's done.
+### Demo
+![Demo](https://cdn.rawgit.com/wangsongiam/vim-git-it/4fbe4e42/demo/git%20it.gif)
 
 ### Mapping
 ```vim
