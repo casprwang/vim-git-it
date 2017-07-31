@@ -9,7 +9,8 @@ Whenever you just want to push all your recent changes with a message, just
 ### Installation 
 Use your favorite plugin manager
 > eg. For vim-plug user
-```
+``` vim
+Plug 'skywind3000/asyncrun.vim'
 Plug 'wangsongiam/vim-git-it'
 ```
 
