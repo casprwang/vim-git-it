@@ -13,17 +13,18 @@ Use your favorite plugin manager
 Plug 'skywind3000/asyncrun.vim'
 Plug 'wangsongiam/vim-git-it'
 ```
+### Usage
+```vim
+:Gitit <your messgage with spaces>
+:GititCommit <your messgage without quotes>
+```
 
 ### Mapping
 ```vim
 nnoremap {shortcut} :Gitit 
 nnoremap {shortcut} :GititCommit 
 ```
-> eg. if you want to trigger it with leaderkey and p
-```vim
-:Gitit <your messgage with spaces>
-:GititCommit <your messgage without quotes>
-```
+
 remember to hit enter at the end. After then, your commits will be pushed/staged
 on the background silently.
 
