@@ -17,15 +17,20 @@ Plug 'wangsongiam/vim-git-it'
 ### Mapping
 ```vim
 nnoremap {shortcut} :Gitit 
+nnoremap {shortcut} :GititCommit 
 ```
 > eg. if you want to trigger it with leaderkey and p
 ```vim
-nnoremap <leader>p :Gitit
+:Gitit <your messgage with spaces>
+:GititCommit <your messgage without quotes>
 ```
-and type <leader>p to start editing your commit message!, remember to hit enter
-at the end
+remember to hit enter at the end. After then, your commits will be pushed/staged
+on the background silently.
 
 
 ### Todos:
-* Run in the background
+* ~~Run in the background~~
 * add non-pushing command
+## License
+This repo is fully under [MIT Lincese](LICENSE), by that you can do almost
+anything you want with it.
