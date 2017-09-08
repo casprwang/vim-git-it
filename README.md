@@ -14,10 +14,18 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'wangsongiam/vim-git-it'
 ```
 ### Usage
+Git add all, commit all with a prompting message and push to the remote(master)
 ```vim
 :Gitit <your messgage with spaces>
+```
+
+Git commit the current file with a prompting message
+```vim
 :GititCommit <your messgage without quotes>
 ```
+
+remember to hit enter at the end. After then, your commits will be pushed/staged
+on the background silently.
 
 ### Mapping
 ```vim
@@ -25,8 +33,6 @@ nnoremap {shortcut} :Gitit
 nnoremap {shortcut} :GititCommit 
 ```
 
-remember to hit enter at the end. After then, your commits will be pushed/staged
-on the background silently.
 
 
 ### Todos:
